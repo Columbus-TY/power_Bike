@@ -5,9 +5,9 @@ import { StyleSheet, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import Login from './screens/login';
-import Home from './screens/home';
-import Cart from './screens/cart';
+import login from './Screens/login';
+import home from './screens/home';
+import cart from './screens/cart';
 
 // function App() {
 export default function App() {

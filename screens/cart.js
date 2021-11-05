@@ -2,14 +2,14 @@ import React from 'react'
 import {View, Text, Image, StyleSheet, ScrollView} from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { TouchableOpacity } from 'react-native-gesture-handler';
-import Container from '../components/Container'
-import Tab from '../components/BottomTab'
-import CartItem from '../components/CartItem'
+import container from '../components/container'
+import Tab from '../components/baseTab'
+import CartItem from '../components/cartItem'
 
 
-export default function Cart({navigation}){
+export default function cart({navigation}){
     return (
-        <Container>
+        <container>
             <View style={{marginTop: 30, marginBottom: 20, flexDirection: 'row'}}>
                 <TouchableOpacity onPress={() => navigation.navigate('Home')}>
                 <Ionicons name="arrow-back" size={24} color="black" />
@@ -39,6 +39,6 @@ export default function Cart({navigation}){
                 <Text style={{fontSize: 18,fontWeight: 700, textAlign: 'center', color: 'white', whiteSpace: 'nowrap'}}>Proceed to Checkout</Text>
             </TouchableOpacity>
             <Tab homeActive={false} />
-        </Container>
+        </container>
     )
 }

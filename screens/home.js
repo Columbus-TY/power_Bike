@@ -5,7 +5,7 @@ import Card from '../components/Card'
 import Tab from '../components/BottomTab'
 import Container from '../components/Container'
 
-export default function Home(){
+export default function home(){
     return (
         <Container>
             <View style={{flexDirection: 'row', marginTop: 20, marginBottom: 10}}>

@@ -4,7 +4,7 @@ import { TouchableOpacity } from "react-native-gesture-handler";
 import {AntDesign, MaterialCommunityIcons} from "@expo/vector-icons";
 import Bike from "../assets/my.jpg";
 
-export default function Login({navigation}) {
+export default function login({navigation}) {
   return (
 
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center"}}>

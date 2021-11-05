@@ -4,7 +4,7 @@ import { AntDesign } from '@expo/vector-icons';
 import BikeImg  from '../assets/bikeimg.png';
 
 
-const Card = ({name, price, wishlist}) => {
+const card = ({name, price, wishlist}) => {
     return (
     <View style={styles.card}>
         <View style={styles.wishlist}>
@@ -38,4 +38,4 @@ const styles = StyleSheet.create({
         height: 35,
     }
 })
-export default Card;
+export default card;
